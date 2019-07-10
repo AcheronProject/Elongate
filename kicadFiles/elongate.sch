@@ -390,7 +390,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-
 Text Notes 750  14625 0    50   ~ 10
 [1] ATMEGA32U4 datasheet
 Text GLabel 8025 9775 2    50   Input ~ 0
-DPBus
+DBusP
 Wire Wire Line
 	7975 9775 8025 9775
 Wire Wire Line
@@ -400,7 +400,7 @@ Text Notes 750  15400 0    50   ~ 10
 Text Notes 750  15500 0    50   ~ 0
 https://www.ftdichip.com/Support/Documents/AppNotes/AN232B-06_11.pdf
 Text GLabel 6900 9775 0    50   Input ~ 0
-DMBus
+DBusN
 Wire Wire Line
 	7975 9575 8025 9575
 Wire Wire Line
@@ -410,11 +410,11 @@ DP
 Wire Wire Line
 	8325 9575 8375 9575
 Text GLabel 6575 9575 0    50   Output ~ 0
-DM
+DN
 Wire Wire Line
 	6575 9575 6625 9575
 Text GLabel 13375 11650 0    50   Input ~ 0
-DM
+DN
 Wire Wire Line
 	13375 11650 13425 11650
 Text GLabel 13375 11900 0    50   Input ~ 0
@@ -777,10 +777,8 @@ Wire Wire Line
 	1750 9625 1900 9625
 Wire Wire Line
 	1750 9725 1900 9725
-Text GLabel 1900 9625 2    50   Output ~ 0
-DPBus
 Text GLabel 1900 9725 2    50   Output ~ 0
-DMBus
+DBusN
 Wire Wire Line
 	2875 9725 2875 9675
 $Comp
@@ -1935,7 +1933,7 @@ Wire Wire Line
 	13525 4225 13525 4125
 Connection ~ 13525 4125
 Wire Wire Line
-	13525 4125 11525 4125
+	13525 4125 12525 4125
 Wire Wire Line
 	15525 4225 15525 4125
 Connection ~ 15525 4125
@@ -1978,7 +1976,7 @@ Wire Wire Line
 	13525 5475 13525 5375
 Connection ~ 13525 5375
 Wire Wire Line
-	13525 5375 11525 5375
+	13525 5375 12525 5375
 Wire Wire Line
 	15525 5475 15525 5375
 Connection ~ 15525 5375
@@ -2599,10 +2597,10 @@ F 3 "" H 13125 12400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 5E75B273
 P 2650 9825
-F 0 "#PWR?" H 2650 9575 50  0001 C CNN
+F 0 "#PWR0117" H 2650 9575 50  0001 C CNN
 F 1 "GND" H 2655 9652 50  0000 C CNN
 F 2 "" H 2650 9825 50  0001 C CNN
 F 3 "" H 2650 9825 50  0001 C CNN
@@ -2610,10 +2608,10 @@ F 3 "" H 2650 9825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 5E75B7C7
 P 3100 9725
-F 0 "#PWR?" H 3100 9475 50  0001 C CNN
+F 0 "#PWR0118" H 3100 9475 50  0001 C CNN
 F 1 "GND" H 3105 9552 50  0000 C CNN
 F 2 "" H 3100 9725 50  0001 C CNN
 F 3 "" H 3100 9725 50  0001 C CNN
@@ -2621,10 +2619,10 @@ F 3 "" H 3100 9725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0119
 U 1 1 5E75BAE6
 P 2875 9725
-F 0 "#PWR?" H 2875 9475 50  0001 C CNN
+F 0 "#PWR0119" H 2875 9475 50  0001 C CNN
 F 1 "GND" H 2880 9552 50  0000 C CNN
 F 2 "" H 2875 9725 50  0001 C CNN
 F 3 "" H 2875 9725 50  0001 C CNN
@@ -2656,4 +2654,29 @@ Wire Wire Line
 	3100 9725 3100 9675
 Wire Wire Line
 	2250 9425 2650 9425
+$Comp
+L power:GND #PWR0120
+U 1 1 5EA702AA
+P 14525 14325
+F 0 "#PWR0120" H 14525 14075 50  0001 C CNN
+F 1 "GND" H 14525 14200 20  0000 C CNN
+F 2 "" H 14525 14325 50  0001 C CNN
+F 3 "" H 14525 14325 50  0001 C CNN
+	1    14525 14325
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 9625 2    50   Output ~ 0
+DBusP
+Text Label 1050 10100 0    50   ~ 10
+SHIELD
+Wire Wire Line
+	12525 4225 12525 4125
+Connection ~ 12525 4125
+Wire Wire Line
+	12525 4125 11525 4125
+Wire Wire Line
+	12525 5475 12525 5375
+Connection ~ 12525 5375
+Wire Wire Line
+	12525 5375 11525 5375
 $EndSCHEMATC
