@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:elongate-cache
 EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
@@ -2679,4 +2678,80 @@ Wire Wire Line
 Connection ~ 12525 5375
 Wire Wire Line
 	12525 5375 11525 5375
+Text GLabel 16675 13150 2    50   Input ~ 0
+Col1
+Wire Wire Line
+	16675 13150 16625 13150
+Text GLabel 16675 12900 2    50   Input ~ 0
+Col2
+Wire Wire Line
+	16675 12900 16625 12900
+Text GLabel 16675 12650 2    50   Input ~ 0
+Col3
+Text GLabel 16675 12400 2    50   Input ~ 0
+Col5
+Wire Wire Line
+	16675 12400 16625 12400
+Wire Wire Line
+	16625 12650 16675 12650
+Text GLabel 16675 12150 2    50   Input ~ 0
+Col8
+Text GLabel 16675 11900 2    50   Input ~ 0
+Col10
+Wire Wire Line
+	16675 12150 16625 12150
+Wire Wire Line
+	16675 11900 16625 11900
+Text GLabel 16675 11650 2    50   Input ~ 0
+Col11
+Wire Wire Line
+	16675 11650 16625 11650
+Text GLabel 16675 11400 2    50   Input ~ 0
+Col13
+Wire Wire Line
+	16675 11400 16625 11400
+Wire Wire Line
+	15525 10750 15525 10800
+Text GLabel 15525 10750 1    50   Input ~ 0
+Row3
+Wire Wire Line
+	15275 10750 15275 10800
+Text GLabel 15275 10750 1    50   Input ~ 0
+Col14
+Wire Wire Line
+	15025 10750 15025 10800
+Text GLabel 15025 10750 1    50   Input ~ 0
+Col15
+Wire Wire Line
+	14775 10750 14775 10800
+Text GLabel 14775 10750 1    50   Input ~ 0
+Row2
+Wire Wire Line
+	14525 10750 14525 10800
+Text GLabel 14525 10750 1    50   Input ~ 0
+Row1
+Wire Wire Line
+	16275 14050 16275 14000
+Text GLabel 16275 14050 3    50   Input ~ 0
+Col12
+Wire Wire Line
+	16025 14050 16025 14000
+Text GLabel 16025 14050 3    50   Input ~ 0
+Col9
+Wire Wire Line
+	15775 14050 15775 14000
+Text GLabel 15775 14050 3    50   Input ~ 0
+Col7
+Wire Wire Line
+	15525 14050 15525 14000
+Text GLabel 15525 14050 3    50   Input ~ 0
+Col6
+Wire Wire Line
+	13725 14000 13775 14000
+Text GLabel 13725 14000 0    50   Input ~ 0
+Col4
+Wire Wire Line
+	15775 10750 15775 10800
+Text GLabel 15775 10750 1    50   Input ~ 0
+Row4
 $EndSCHEMATC
