@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:elongate-cache
 EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
@@ -2754,4 +2755,70 @@ Wire Wire Line
 	15775 10750 15775 10800
 Text GLabel 15775 10750 1    50   Input ~ 0
 Row4
+$Comp
+L Mechanical:MountingHole L1
+U 1 1 5D29AB69
+P 7750 12000
+F 0 "L1" H 7850 12047 50  0000 L CNN
+F 1 "AcheronLogo" H 7850 11954 50  0000 L CNN
+F 2 "acheron_Logos:acheronLong" H 7750 12000 50  0001 C CNN
+F 3 "~" H 7750 12000 50  0001 C CNN
+	1    7750 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L2
+U 1 1 5D2EE938
+P 7750 12225
+F 0 "L2" H 7850 12272 50  0000 L CNN
+F 1 "ElongateLogoPlated" H 7850 12179 50  0000 L CNN
+F 2 "elongateGraphics:elongateLogo" H 7750 12225 50  0001 C CNN
+F 3 "~" H 7750 12225 50  0001 C CNN
+	1    7750 12225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L3
+U 1 1 5D331E56
+P 7750 12450
+F 0 "L3" H 7850 12497 50  0000 L CNN
+F 1 "ElongateLabel" H 7850 12404 50  0000 L CNN
+F 2 "elongateGraphics:elongateLabel" H 7750 12450 50  0001 C CNN
+F 3 "~" H 7750 12450 50  0001 C CNN
+	1    7750 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L4
+U 1 1 5D34F737
+P 7750 12675
+F 0 "L4" H 7850 12722 50  0000 L CNN
+F 1 "ElongateLabelMask" H 7850 12629 50  0000 L CNN
+F 2 "elongateGraphics:elongateLabelMask" H 7750 12675 50  0001 C CNN
+F 3 "~" H 7750 12675 50  0001 C CNN
+	1    7750 12675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L5
+U 1 1 5D39DAA7
+P 7750 12900
+F 0 "L5" H 7850 12947 50  0000 L CNN
+F 1 "OSHLogo" H 7850 12854 50  0000 L CNN
+F 2 "oshLogo:osh-logo" H 7750 12900 50  0001 C CNN
+F 3 "~" H 7750 12900 50  0001 C CNN
+	1    7750 12900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole L6
+U 1 1 5D3BB7BC
+P 7750 13125
+F 0 "L6" H 7850 13172 50  0000 L CNN
+F 1 "BRFlag" H 7850 13079 50  0000 L CNN
+F 2 "oshLogo:brazilFlag" H 7750 13125 50  0001 C CNN
+F 3 "~" H 7750 13125 50  0001 C CNN
+	1    7750 13125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
