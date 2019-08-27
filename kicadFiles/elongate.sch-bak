@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:elongate-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -441,7 +441,7 @@ RHWB1
 Text Notes 18100 12975 0    50   ~ 0
 Datasheet [1] recommends that the HWB pin\nbe connected to GNd through a 1k resistor.
 Text GLabel 7475 9125 1    50   Input ~ 0
-VBUS
+5V
 Wire Wire Line
 	7475 9125 7475 9150
 Wire Wire Line
@@ -2405,7 +2405,7 @@ F 3 "" H 1350 10600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 9425 1850 9425
+	1750 9425 1950 9425
 $Comp
 L Connector:USB_B_Mini J1
 U 1 1 5E53CECE
@@ -2821,11 +2821,4 @@ F 3 "~" H 7750 13125 50  0001 C CNN
 	1    7750 13125
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 9350 1    50   Output ~ 0
-VBUS
-Wire Wire Line
-	1850 9350 1850 9425
-Connection ~ 1850 9425
-Wire Wire Line
-	1850 9425 1950 9425
 $EndSCHEMATC
