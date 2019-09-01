@@ -21,7 +21,5 @@ _autosave-*
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
-.DS_Store
+# Exported Gerber files
+/manuFiles/ElongatePCB
