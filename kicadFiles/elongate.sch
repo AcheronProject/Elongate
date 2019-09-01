@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:elongate-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -426,7 +425,7 @@ L Device:R RHWB1
 U 1 1 5DDD93F5
 P 16825 11150
 F 0 "RHWB1" V 16675 11150 30  0000 C CNN
-F 1 "1k" V 16725 11150 30  0000 C CNN
+F 1 "10k" V 16725 11150 30  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 16755 11150 50  0001 C CNN
 F 3 "~" H 16825 11150 50  0001 C CNN
 	1    16825 11150
@@ -2398,7 +2397,7 @@ L power:GND #PWR0102
 U 1 1 5E53B298
 P 1350 10600
 F 0 "#PWR0102" H 1350 10350 50  0001 C CNN
-F 1 "GND" H 1355 10427 50  0000 C CNN
+F 1 "GND" H 1350 10475 30  0000 C CNN
 F 2 "" H 1350 10600 50  0001 C CNN
 F 3 "" H 1350 10600 50  0001 C CNN
 	1    1350 10600
@@ -2436,7 +2435,7 @@ L power:GND #PWR0103
 U 1 1 5E6FD2E9
 P 1450 10025
 F 0 "#PWR0103" H 1450 9775 50  0001 C CNN
-F 1 "GND" H 1455 9852 50  0000 C CNN
+F 1 "GND" H 1450 9900 30  0000 C CNN
 F 2 "" H 1450 10025 50  0001 C CNN
 F 3 "" H 1450 10025 50  0001 C CNN
 	1    1450 10025
@@ -2492,7 +2491,7 @@ U 1 1 5D2994BF
 P 14900 14300
 F 0 "X1" H 14600 14275 30  0000 L CNN
 F 1 "16MHz" H 14575 14325 30  0000 L CNN
-F 2 "acheron_Components:Crystal_SMD_5032-4Pin-HandSolder" H 14900 14300 50  0001 C CNN
+F 2 "acheron_Components:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 14900 14300 50  0001 C CNN
 F 3 "~" H 14900 14300 50  0001 C CNN
 	1    14900 14300
 	-1   0    0    1   
@@ -2667,7 +2666,7 @@ F 3 "" H 14525 14325 50  0001 C CNN
 $EndComp
 Text GLabel 1900 9625 2    50   Output ~ 0
 DBusP
-Text Label 1050 10100 0    50   ~ 10
+Text Label 1125 10100 0    30   ~ 6
 SHIELD
 Wire Wire Line
 	12525 4225 12525 4125
@@ -2679,82 +2678,36 @@ Wire Wire Line
 Connection ~ 12525 5375
 Wire Wire Line
 	12525 5375 11525 5375
-Text GLabel 16675 13150 2    50   Input ~ 0
-Col1
 Wire Wire Line
 	16675 13150 16625 13150
-Text GLabel 16675 12900 2    50   Input ~ 0
-Col2
 Wire Wire Line
 	16675 12900 16625 12900
-Text GLabel 16675 12650 2    50   Input ~ 0
-Col3
-Text GLabel 16675 12400 2    50   Input ~ 0
-Col5
 Wire Wire Line
 	16675 12400 16625 12400
 Wire Wire Line
 	16625 12650 16675 12650
-Text GLabel 16675 12150 2    50   Input ~ 0
-Col8
-Text GLabel 16675 11900 2    50   Input ~ 0
-Col10
 Wire Wire Line
 	16675 12150 16625 12150
 Wire Wire Line
 	16675 11900 16625 11900
-Text GLabel 16675 11650 2    50   Input ~ 0
-Col11
 Wire Wire Line
 	16675 11650 16625 11650
-Text GLabel 16675 11400 2    50   Input ~ 0
-Col13
 Wire Wire Line
 	16675 11400 16625 11400
 Wire Wire Line
-	15525 10750 15525 10800
-Text GLabel 15525 10750 1    50   Input ~ 0
-Row3
-Wire Wire Line
-	15275 10750 15275 10800
-Text GLabel 15275 10750 1    50   Input ~ 0
-Col14
-Wire Wire Line
-	15025 10750 15025 10800
-Text GLabel 15025 10750 1    50   Input ~ 0
-Col15
-Wire Wire Line
 	14775 10750 14775 10800
-Text GLabel 14775 10750 1    50   Input ~ 0
-Row2
 Wire Wire Line
 	14525 10750 14525 10800
-Text GLabel 14525 10750 1    50   Input ~ 0
-Row1
 Wire Wire Line
 	16275 14050 16275 14000
-Text GLabel 16275 14050 3    50   Input ~ 0
-Col12
 Wire Wire Line
 	16025 14050 16025 14000
-Text GLabel 16025 14050 3    50   Input ~ 0
-Col9
 Wire Wire Line
 	15775 14050 15775 14000
-Text GLabel 15775 14050 3    50   Input ~ 0
-Col7
 Wire Wire Line
 	15525 14050 15525 14000
-Text GLabel 15525 14050 3    50   Input ~ 0
-Col6
-Wire Wire Line
-	13725 14000 13775 14000
-Text GLabel 13725 14000 0    50   Input ~ 0
-Col4
 Wire Wire Line
 	15775 10750 15775 10800
-Text GLabel 15775 10750 1    50   Input ~ 0
-Row4
 $Comp
 L Mechanical:MountingHole L1
 U 1 1 5D29AB69
@@ -2828,4 +2781,78 @@ Wire Wire Line
 Connection ~ 1850 9425
 Wire Wire Line
 	1850 9425 1950 9425
+Text GLabel 15525 14050 3    50   Input ~ 0
+Col15
+Text GLabel 15775 14050 3    50   Input ~ 0
+Col14
+Text GLabel 16025 14050 3    50   Input ~ 0
+Col13
+Text GLabel 16275 14050 3    50   Input ~ 0
+Row4
+Text GLabel 16675 12900 2    50   Input ~ 0
+Col11
+Text GLabel 16675 12650 2    50   Input ~ 0
+Col10
+Text GLabel 16675 12400 2    50   Input ~ 0
+Col8
+Text GLabel 16675 12150 2    50   Input ~ 0
+Col5
+Text GLabel 16675 11900 2    50   Input ~ 0
+Col3
+Text GLabel 16675 11650 2    50   Input ~ 0
+Col2
+Text GLabel 16675 11400 2    50   Input ~ 0
+Col1
+Text GLabel 15775 10750 1    50   Input ~ 0
+Col9
+Text GLabel 16675 13150 2    50   Input ~ 0
+Col12
+Text GLabel 15025 10700 1    50   Input ~ 0
+Col4
+Wire Wire Line
+	15025 10700 15025 10800
+Text GLabel 15525 10700 1    50   Input ~ 0
+Col7
+Wire Wire Line
+	15525 10700 15525 10800
+Text GLabel 15275 10700 1    50   Input ~ 0
+Col6
+Wire Wire Line
+	15275 10700 15275 10800
+Text GLabel 15275 14075 3    50   Input ~ 0
+Row3
+Wire Wire Line
+	15275 14075 15275 14000
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 5D940F07
+P 8875 14075
+F 0 "J?" H 8903 14051 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 8903 13960 50  0000 L CNN
+F 2 "" H 8875 14075 50  0001 C CNN
+F 3 "~" H 8875 14075 50  0001 C CNN
+	1    8875 14075
+	1    0    0    -1  
+$EndComp
+Text GLabel 8675 14375 0    40   Input ~ 0
+Pin8
+Text GLabel 8675 14275 0    40   Input ~ 0
+Pin9
+Text GLabel 8675 14175 0    40   Input ~ 0
+Pin10
+Text GLabel 8675 14075 0    40   Input ~ 0
+Pin11
+Text GLabel 8675 13975 0    40   Input ~ 0
+Pin12
+$Comp
+L power:GND #PWR?
+U 1 1 5D96180D
+P 8675 13875
+F 0 "#PWR?" H 8675 13625 50  0001 C CNN
+F 1 "GND" V 8680 13747 50  0000 R CNN
+F 2 "" H 8675 13875 50  0001 C CNN
+F 3 "" H 8675 13875 50  0001 C CNN
+	1    8675 13875
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
