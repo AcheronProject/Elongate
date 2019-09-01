@@ -2824,12 +2824,12 @@ Row3
 Wire Wire Line
 	15275 14075 15275 14000
 $Comp
-L Connector:Conn_01x06_Female J?
+L Connector:Conn_01x06_Female J2
 U 1 1 5D940F07
 P 8875 14075
-F 0 "J?" H 8903 14051 50  0000 L CNN
+F 0 "J2" H 8903 14051 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 8903 13960 50  0000 L CNN
-F 2 "" H 8875 14075 50  0001 C CNN
+F 2 "acheron_Connectors:HEADER_6PIN" H 8875 14075 50  0001 C CNN
 F 3 "~" H 8875 14075 50  0001 C CNN
 	1    8875 14075
 	1    0    0    -1  
@@ -2845,14 +2845,30 @@ Pin11
 Text GLabel 8675 13975 0    40   Input ~ 0
 Pin12
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0121
 U 1 1 5D96180D
 P 8675 13875
-F 0 "#PWR?" H 8675 13625 50  0001 C CNN
+F 0 "#PWR0121" H 8675 13625 50  0001 C CNN
 F 1 "GND" V 8680 13747 50  0000 R CNN
 F 2 "" H 8675 13875 50  0001 C CNN
 F 3 "" H 8675 13875 50  0001 C CNN
 	1    8675 13875
 	0    1    1    0   
 $EndComp
+Text GLabel 13425 12900 0    40   Output ~ 0
+Pin8
+Text GLabel 13425 13150 0    40   Output ~ 0
+Pin9
+Text GLabel 13425 13400 0    40   Output ~ 0
+Pin10
+Text GLabel 13425 13650 0    40   Output ~ 0
+Pin11
+Text GLabel 13600 14000 0    40   Output ~ 0
+Pin12
+Wire Wire Line
+	13600 14000 13775 14000
+Text GLabel 14525 10750 1    50   Input ~ 0
+Row1
+Text GLabel 14775 10750 1    50   Input ~ 0
+Row2
 $EndSCHEMATC

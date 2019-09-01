@@ -1,113 +1,71 @@
-25005707633893
-acheron_Components
-Crystal_SMD_5032-2Pin
-SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, hand-soldering, 5.0x3.2mm^2 package
-SMD SMT crystal hand-soldering
-0
-2
-2
-acheron_Components
-Crystal_SMD_5032-4Pin
-SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
-SMD SMT crystal
-0
-4
-4
-acheron_Components
-Crystal_SMD_5032-4Pin-HandSolder
-SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
-SMD SMT crystal
-0
-4
-4
-acheron_Components
-Crystal_SMD_5032-4Pin_5.0x3.2mm
-SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
-SMD SMT crystal
-0
-4
-4
-acheron_Components
-D_SOD-123
-SOD-123
-SOD-123
-0
-2
-2
-acheron_Components
-D_THT_7.62mm
-Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
-Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
-0
-2
-2
-acheron_Components
-D_THT_7.62mm_SOD-123
-Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
-Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
-0
-4
-2
-acheron_Components
-LED_SMD_0805
+15673406271885
+acheron_Connectors
+HEADER_4PIN
 
 
 0
-2
-2
-acheron_Components
-LED_THT_2.54mm
+4
+4
+acheron_Connectors
+HEADER_4PIN_ANGLE
 
 
 0
-2
-2
-acheron_Components
-LED_WS2812B_5.0x5.0mm_P3.2mm
-https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
-LED RGB NeoPixel
-0
 4
 4
-acheron_Components
-LQFP-48_7x7mm_P0.5mm
-LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-LQFP QFP
+acheron_Connectors
+HEADER_5PIN
+
+
 0
-48
-48
-acheron_Components
-R_SMD_1026
-Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-resistor handsolder
-0
-2
-2
-acheron_Components
-R_THT_5.08mm_Horizontal
-Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm
-0
-2
-2
-acheron_Components
-SOIC-8
-8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
-0
-8
-8
-acheron_Components
-SOT-23-6
-6-pin SOT-23 package
-SOT-23-6
+5
+5
+acheron_Connectors
+HEADER_6PIN
+
+
 0
 6
 6
-acheron_Components
-TQPF-44_10x10mm_P0.8mm
-44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
-QFP 0.8
+acheron_Connectors
+HEADER_6PIN_ANGLE
+
+
 0
-44
-44
+6
+6
+acheron_Connectors
+HEADER_6PIN_HORIZONTAL
+
+
+0
+6
+6
+acheron_Connectors
+JSTBM04B-ASRS
+
+
+0
+10
+6
+acheron_Connectors
+TYPE-C-31-M-12
+
+
+0
+20
+13
+acheron_Connectors
+USB_MiniB_Hirose_UX60-MB-5S8
+
+
+0
+7
+6
+acheron_Connectors
+USB_MiniB_XM7D-0512
+
+
+0
+9
+6

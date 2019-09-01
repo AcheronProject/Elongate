@@ -2823,4 +2823,36 @@ Text GLabel 15275 14075 3    50   Input ~ 0
 Row3
 Wire Wire Line
 	15275 14075 15275 14000
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 5D940F07
+P 8875 14075
+F 0 "J?" H 8903 14051 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 8903 13960 50  0000 L CNN
+F 2 "" H 8875 14075 50  0001 C CNN
+F 3 "~" H 8875 14075 50  0001 C CNN
+	1    8875 14075
+	1    0    0    -1  
+$EndComp
+Text GLabel 8675 14375 0    40   Input ~ 0
+Pin8
+Text GLabel 8675 14275 0    40   Input ~ 0
+Pin9
+Text GLabel 8675 14175 0    40   Input ~ 0
+Pin10
+Text GLabel 8675 14075 0    40   Input ~ 0
+Pin11
+Text GLabel 8675 13975 0    40   Input ~ 0
+Pin12
+$Comp
+L power:GND #PWR?
+U 1 1 5D96180D
+P 8675 13875
+F 0 "#PWR?" H 8675 13625 50  0001 C CNN
+F 1 "GND" V 8680 13747 50  0000 R CNN
+F 2 "" H 8675 13875 50  0001 C CNN
+F 3 "" H 8675 13875 50  0001 C CNN
+	1    8675 13875
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
