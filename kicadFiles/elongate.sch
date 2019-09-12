@@ -2831,15 +2831,9 @@ F 3 "~" H 8750 11775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8550 12075 0    40   Input ~ 0
-Pin8
-Text GLabel 8550 11975 0    40   Input ~ 0
-Pin9
-Text GLabel 8550 11875 0    40   Input ~ 0
-Pin10
+PB0
 Text GLabel 8550 11775 0    40   Input ~ 0
-Pin11
-Text GLabel 8550 11675 0    40   Input ~ 0
-Pin12
+PB7
 $Comp
 L power:GND #PWR0121
 U 1 1 5D96180D
@@ -2852,15 +2846,15 @@ F 3 "" H 8550 11575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 12325 11475 0    40   Output ~ 0
-Pin8
+PB0
 Text GLabel 12325 11725 0    40   Output ~ 0
-Pin9
+PB1
 Text GLabel 12325 11975 0    40   Output ~ 0
-Pin10
+PB2
 Text GLabel 12325 12225 0    40   Output ~ 0
-Pin11
+PB3
 Text GLabel 12500 12575 0    40   Output ~ 0
-Pin12
+PB7
 Wire Wire Line
 	12500 12575 12675 12575
 Text GLabel 13425 9325 1    50   Input ~ 0
@@ -2965,4 +2959,58 @@ Connection ~ 14250 5800
 Connection ~ 15250 5800
 Connection ~ 16250 5800
 Connection ~ 17250 5800
+Text GLabel 12325 9725 0    40   Output ~ 0
+PE6
+Text GLabel 8550 11975 0    40   Input ~ 0
+PB0
+Text GLabel 8550 11875 0    40   Input ~ 0
+PE6
+Text GLabel 8550 11675 0    50   Input ~ 0
+5V
+Wire Notes Line width 20
+	6225 12675 8025 12675
+Wire Notes Line width 20
+	8025 12675 8025 14325
+Wire Notes Line width 20
+	8025 14325 6225 14325
+Wire Notes Line width 20
+	6225 14325 6225 12675
+Text Notes 6375 12925 0    100  ~ 20
+ISP pins
+Wire Notes Line width 20
+	6225 13025 7175 13025
+Wire Notes Line width 20
+	7175 13025 7175 12675
+Text GLabel 6775 13625 0    40   Input ~ 0
+PB1
+Text GLabel 6775 13725 0    40   Input ~ 0
+PB2
+Text GLabel 6775 13425 0    40   Input ~ 0
+PB3
+$Comp
+L Connector:Conn_01x06_Female J3
+U 1 1 5D88FAFC
+P 6975 13625
+F 0 "J3" H 7003 13601 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 7003 13510 50  0000 L CNN
+F 2 "acheron_Connectors:HEADER_6PIN_HORIZONTAL" H 6975 13625 50  0001 C CNN
+F 3 "~" H 6975 13625 50  0001 C CNN
+	1    6975 13625
+	1    0    0    -1  
+$EndComp
+Text GLabel 6775 13525 0    50   Input ~ 0
+5V
+$Comp
+L power:GND #PWR01
+U 1 1 5D88FB03
+P 6775 13925
+F 0 "#PWR01" H 6775 13675 50  0001 C CNN
+F 1 "GND" V 6780 13797 50  0000 R CNN
+F 2 "" H 6775 13925 50  0001 C CNN
+F 3 "" H 6775 13925 50  0001 C CNN
+	1    6775 13925
+	0    1    1    0   
+$EndComp
+Text GLabel 6775 13825 0    40   Input ~ 0
+RST
 $EndSCHEMATC
