@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "ElongatePCB"
-Date "2019-09-11"
-Rev "1.1"
+Date "2019-09-13"
+Rev "1.2"
 Comp "Designed by Gondolindrim and MrKeebs"
 Comment1 ""
 Comment2 ""
