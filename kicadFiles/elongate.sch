@@ -2699,9 +2699,9 @@ Wire Wire Line
 Wire Wire Line
 	14925 12625 14925 12575
 Wire Wire Line
-	14675 12625 14675 12575
+	12625 12575 12675 12575
 Wire Wire Line
-	14425 12625 14425 12575
+	12275 11475 12325 11475
 Wire Wire Line
 	14675 9325 14675 9375
 $Comp
@@ -2777,9 +2777,9 @@ Wire Wire Line
 Connection ~ 3375 8575
 Wire Wire Line
 	3375 8575 3475 8575
-Text GLabel 14425 12625 3    50   Input ~ 0
+Text GLabel 12275 11475 0    50   Input ~ 0
 Col15
-Text GLabel 14675 12625 3    50   Input ~ 0
+Text GLabel 12625 12575 0    50   Input ~ 0
 Col14
 Text GLabel 14925 12625 3    50   Input ~ 0
 Col13
@@ -2819,44 +2819,12 @@ Text GLabel 14175 12650 3    50   Input ~ 0
 Row3
 Wire Wire Line
 	14175 12650 14175 12575
-$Comp
-L Connector:Conn_01x06_Female J2
-U 1 1 5D940F07
-P 8750 11775
-F 0 "J2" H 8778 11751 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 8778 11660 50  0000 L CNN
-F 2 "acheron_Connectors:HEADER_6PIN" H 8750 11775 50  0001 C CNN
-F 3 "~" H 8750 11775 50  0001 C CNN
-	1    8750 11775
-	1    0    0    -1  
-$EndComp
-Text GLabel 8550 12075 0    40   Input ~ 0
-PB0
-Text GLabel 8550 11775 0    40   Input ~ 0
-PB7
-$Comp
-L power:GND #PWR0121
-U 1 1 5D96180D
-P 8550 11575
-F 0 "#PWR0121" H 8550 11325 50  0001 C CNN
-F 1 "GND" V 8555 11447 50  0000 R CNN
-F 2 "" H 8550 11575 50  0001 C CNN
-F 3 "" H 8550 11575 50  0001 C CNN
-	1    8550 11575
-	0    1    1    0   
-$EndComp
-Text GLabel 12325 11475 0    40   Output ~ 0
-PB0
 Text GLabel 12325 11725 0    40   Output ~ 0
 PB1
 Text GLabel 12325 11975 0    40   Output ~ 0
 PB2
 Text GLabel 12325 12225 0    40   Output ~ 0
 PB3
-Text GLabel 12500 12575 0    40   Output ~ 0
-PB7
-Wire Wire Line
-	12500 12575 12675 12575
 Text GLabel 13425 9325 1    50   Input ~ 0
 Row1
 Text GLabel 13675 9325 1    50   Input ~ 0
@@ -2961,12 +2929,6 @@ Connection ~ 16250 5800
 Connection ~ 17250 5800
 Text GLabel 12325 9725 0    40   Output ~ 0
 PE6
-Text GLabel 8550 11975 0    40   Input ~ 0
-PB0
-Text GLabel 8550 11875 0    40   Input ~ 0
-PE6
-Text GLabel 8550 11675 0    50   Input ~ 0
-5V
 Wire Notes Line width 20
 	6225 12675 8025 12675
 Wire Notes Line width 20
@@ -2981,36 +2943,70 @@ Wire Notes Line width 20
 	6225 13025 7175 13025
 Wire Notes Line width 20
 	7175 13025 7175 12675
-Text GLabel 6775 13625 0    40   Input ~ 0
-PB1
-Text GLabel 6775 13725 0    40   Input ~ 0
-PB2
-Text GLabel 6775 13425 0    40   Input ~ 0
-PB3
+Text GLabel 8550 11675 0    50   Input ~ 0
+5V
+Text GLabel 8550 11875 0    40   Input ~ 0
+PE6
+Text GLabel 8550 11975 0    40   Input ~ 0
+PD1
 $Comp
-L Connector:Conn_01x06_Female J3
-U 1 1 5D88FAFC
-P 6975 13625
-F 0 "J3" H 7003 13601 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 7003 13510 50  0000 L CNN
-F 2 "acheron_Connectors:HEADER_6PIN_HORIZONTAL" H 6975 13625 50  0001 C CNN
-F 3 "~" H 6975 13625 50  0001 C CNN
-	1    6975 13625
+L power:GND #PWR0121
+U 1 1 5D96180D
+P 8550 11575
+F 0 "#PWR0121" H 8550 11325 50  0001 C CNN
+F 1 "GND" V 8555 11447 50  0000 R CNN
+F 2 "" H 8550 11575 50  0001 C CNN
+F 3 "" H 8550 11575 50  0001 C CNN
+	1    8550 11575
+	0    1    1    0   
+$EndComp
+Text GLabel 8550 11775 0    40   Input ~ 0
+PD2
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5D940F07
+P 8750 11775
+F 0 "J2" H 8850 11800 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 8850 11675 50  0000 L CNN
+F 2 "acheron_Connectors:HEADER_5PIN" H 8750 11775 50  0001 C CNN
+F 3 "~" H 8750 11775 50  0001 C CNN
+	1    8750 11775
 	1    0    0    -1  
 $EndComp
-Text GLabel 6775 13525 0    50   Input ~ 0
+Text GLabel 6825 13375 0    40   Input ~ 0
+PB3
+Text GLabel 6825 13475 0    50   Input ~ 0
 5V
+Text GLabel 6825 13575 0    40   Input ~ 0
+PB1
+Text GLabel 6825 13675 0    40   Input ~ 0
+PB2
+Text GLabel 6825 13775 0    40   Input ~ 0
+RST
 $Comp
 L power:GND #PWR01
 U 1 1 5D88FB03
-P 6775 13925
-F 0 "#PWR01" H 6775 13675 50  0001 C CNN
-F 1 "GND" V 6780 13797 50  0000 R CNN
-F 2 "" H 6775 13925 50  0001 C CNN
-F 3 "" H 6775 13925 50  0001 C CNN
-	1    6775 13925
+P 6825 13875
+F 0 "#PWR01" H 6825 13625 50  0001 C CNN
+F 1 "GND" V 6830 13747 50  0000 R CNN
+F 2 "" H 6825 13875 50  0001 C CNN
+F 3 "" H 6825 13875 50  0001 C CNN
+	1    6825 13875
 	0    1    1    0   
 $EndComp
-Text GLabel 6775 13825 0    40   Input ~ 0
-RST
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5D88FAFC
+P 7025 13575
+F 0 "J3" H 7150 13575 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 7125 13475 50  0000 L CNN
+F 2 "acheron_Connectors:HEADER_6PIN_HORIZONTAL" H 7025 13575 50  0001 C CNN
+F 3 "~" H 7025 13575 50  0001 C CNN
+	1    7025 13575
+	1    0    0    -1  
+$EndComp
+Text GLabel 14425 12575 3    40   Output ~ 0
+PD1
+Text GLabel 14675 12575 3    40   Output ~ 0
+PD2
 $EndSCHEMATC
