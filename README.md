@@ -6,9 +6,9 @@ See [this page](https://gondolindrim.github.io/AcheronDocs/elongate/intro.html) 
 
 ## Supported layouts
 
-Click [this link](http://www.keyboard-layout-editor.com/#/gists/ba026fd3849cde8934be84d04b326c1d) for the KLE file for Elongate.
+Click [this link](http://www.keyboard-layout-editor.com/#/gists/a7ea70bf0b0dbade28f4dd3f8dd61796) for the KLE file for Elongate.
 
-![Elongate layouts](http://www.keyboard-layout-editor.com/#/gists/a7ea70bf0b0dbade28f4dd3f8dd61796)
+![Elongate layouts](https://github.com/Gondolindrim/Elongate/raw/master/graphics/elongateLayout.png)
 
 ## Renders
 
