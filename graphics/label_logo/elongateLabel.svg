@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="112.22194"
-     inkscape:cy="-31.155426"
+     inkscape:zoom="3.959798"
+     inkscape:cx="84.695751"
+     inkscape:cy="43.571377"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,10 +35,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="711"
-     inkscape:window-x="0"
-     inkscape:window-y="20"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="1920"
+     inkscape:window-y="294"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,104 +57,27 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-36.589,-55.769939)">
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.09217852;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4534"
-       width="48.890587"
-       height="22.567001"
-       x="32.552399"
-       y="55.998344"
-       rx="1.2490587"
-       ry="1.2963094" />
-    <g
-       id="g25"
-       transform="matrix(0.6,0,0,0.6,22.799077,26.307976)"
-       inkscape:export-xdpi="10000"
-       inkscape:export-ydpi="10000">
-      <rect
-         inkscape:export-ydpi="10000"
-         inkscape:export-xdpi="10000"
-         ry="3.1054544"
-         rx="2.947958"
-         y="55.809467"
-         x="36.628529"
-         height="19.920944"
-         width="40.738327"
-         id="rect3713"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.07905633;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         inkscape:export-ydpi="10000"
-         inkscape:export-xdpi="10000"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.07387803;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect3715"
-         width="39.184189"
-         height="18.086704"
-         x="37.405598"
-         y="56.726589"
-         rx="2.0817645"
-         ry="2.1605155" />
-      <flowRoot
-         inkscape:export-ydpi="10000"
-         inkscape:export-xdpi="10000"
-         transform="matrix(0.25011234,0,0,0.25011234,-0.26881574,3.7518036)"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:'Fira sans';-inkscape-font-specification:'Fira sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         id="flowRoot3717"
-         xml:space="preserve"><flowRegion
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'Fira sans';-inkscape-font-specification:'Fira sans'"
-           id="flowRegion3719"><rect
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'Fira sans';-inkscape-font-specification:'Fira sans'"
-             y="221.09111"
-             x="151.78572"
-             height="54.939411"
-             width="153.27325"
-             id="rect3721" /></flowRegion><flowPara
-           style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-           id="flowPara3723">ElongatePCB  pre-release Alpha</flowPara><flowPara
-           style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-           id="flowPara3725">Designed by Gondolindrim and MrKeebs</flowPara><flowPara
-           style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-           id="flowPara3727">&quot;Dude I give up. Can you fix this?&quot;</flowPara></flowRoot>    </g>
-    <rect
-       inkscape:export-ydpi="10000"
-       inkscape:export-xdpi="10000"
-       ry="1.8632727"
-       rx="1.7687747"
-       y="59.793655"
-       x="44.776196"
-       height="11.952566"
-       width="24.442997"
-       id="rect3730"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0474338;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       inkscape:export-ydpi="10000"
-       inkscape:export-xdpi="10000"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.04432682;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect3732"
-       width="23.510513"
-       height="10.852022"
-       x="45.242435"
-       y="60.343929"
-       rx="1.2490587"
-       ry="1.2963094" />
     <flowRoot
        inkscape:export-ydpi="10000"
        inkscape:export-xdpi="10000"
-       transform="matrix(0.1500674,0,0,0.1500674,22.637788,28.559058)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.25;font-family:'Fira sans';-inkscape-font-specification:'Fira sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.10390419,0,0,0.10390419,26.729925,38.238432)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.5;font-family:'Fira sans';-inkscape-font-specification:'Fira sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot3744"
        xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'Fira sans';-inkscape-font-specification:'Fira sans'"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.5;font-family:'Fira sans';-inkscape-font-specification:'Fira sans'"
          id="flowRegion3736"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'Fira sans';-inkscape-font-specification:'Fira sans'"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.5;font-family:'Fira sans';-inkscape-font-specification:'Fira sans'"
            y="221.09111"
            x="151.78572"
-           height="54.939411"
-           width="153.27325"
+           height="110.03619"
+           width="281.72739"
            id="rect3734" /></flowRegion><flowPara
-         style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-         id="flowPara3738">ElongatePCB  pre-release Alpha</flowPara><flowPara
-         style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-         id="flowPara3740">Designed by Gondolindrim and MrKeebs</flowPara><flowPara
-         style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+         style="font-size:14.10477352px;line-height:1.5;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+         id="flowPara923">ElongatePCB pre-release Beta</flowPara><flowPara
+         style="font-size:14.10477352px;line-height:1.5;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+         id="flowPara919">Designed by Gondolindrim</flowPara><flowPara
+         style="font-size:14.10477352px;line-height:1.5;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+         id="flowPara925">In partnership with MrKeebs</flowPara><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.10477352px;line-height:1.5;font-family:'Fira sans';-inkscape-font-specification:'Fira sans Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
          id="flowPara3742">&quot;Dude I give up. Can you fix this?&quot;</flowPara></flowRoot>  </g>
 </svg>
