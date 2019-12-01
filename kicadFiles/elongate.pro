@@ -1,4 +1,4 @@
-update=Fri 29 Nov 2019 12:29:04 AM -03
+update=Sat 30 Nov 2019 08:46:01 PM -03
 last_client=kicad
 [schematic_editor]
 version=1
@@ -13,19 +13,19 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=elongate.net
+LastNetListRead=
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.2
-MinViaDiameter=0.4
-MinViaDrill=0.3
-MinMicroViaDiameter=0.2
-MinMicroViaDrill=0.09999999999999999
-MinHoleToHole=0.25
+MinTrackWidth=0.2032
+MinViaDiameter=0.4064
+MinViaDrill=0.3048
+MinMicroViaDiameter=0.2032
+MinMicroViaDrill=0.1016
+MinHoleToHole=0.254
 TrackWidth1=0.254
 TrackWidth2=0.508
 TrackWidth3=1.016

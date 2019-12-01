@@ -10,4 +10,5 @@
   (lib (name acheron_SwitchSlots)(type KiCad)(uri ${KIPRJMOD}/AcheronLibrary/footprints/acheron_SwitchSlots.pretty)(options "")(descr ""))
   (lib (name elongateGraphics)(type KiCad)(uri /home/alvaro/Desktop/AcheronProject/Elongate/graphics/elongateGraphics.pretty)(options "")(descr ""))
   (lib (name acheron_MX_SolderMask)(type KiCad)(uri ${KIPRJMOD}/AcheronLibrary/footprints/acheron_MX_SolderMask.pretty)(options "")(descr ""))
+  (lib (name acheron_Graphics)(type KiCad)(uri ${KIPRJMOD}/AcheronLibrary/footprints/acheron_Graphics.pretty)(options "")(descr ""))
 )
