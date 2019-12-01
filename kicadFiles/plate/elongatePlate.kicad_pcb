@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.4)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5)
 
   (general
     (thickness 1.6)
@@ -90,7 +90,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../../plate"))
+      (outputdirectory "../../manuFiles/plate"))
   )
 
   (net 0 "")
@@ -544,7 +544,7 @@
   (via (at 186.575 221.675) (size 3) (drill 2) (layers F.Cu B.Cu) (net 0) (tstamp 5D27F6BD))
   (via (at 186.5 138.625) (size 3) (drill 2) (layers F.Cu B.Cu) (net 0) (tstamp 5D27F64E))
 
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5DB74C63) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5DE3541D) (hatch edge 0.508)
     (connect_pads (clearance 1))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2054,7 +2054,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5DB74C60) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5DE3541A) (hatch edge 0.508)
     (connect_pads (clearance 1))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
