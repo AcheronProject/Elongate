@@ -26,8 +26,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
+<<<<<<< HEAD
      inkscape:cx="84.695751"
      inkscape:cy="43.571377"
+=======
+     inkscape:cx="131.59933"
+     inkscape:cy="12.123647"
+>>>>>>> 3b18f78976a196233dbbdf30713fde4c508b67e4
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -72,6 +77,7 @@
            height="110.03619"
            width="281.72739"
            id="rect3734" /></flowRegion><flowPara
+<<<<<<< HEAD
          style="font-size:14.10477352px;line-height:1.5;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
          id="flowPara923">ElongatePCB pre-release Beta</flowPara><flowPara
          style="font-size:14.10477352px;line-height:1.5;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
@@ -79,5 +85,12 @@
          style="font-size:14.10477352px;line-height:1.5;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
          id="flowPara925">In partnership with MrKeebs</flowPara><flowPara
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.10477352px;line-height:1.5;font-family:'Fira sans';-inkscape-font-specification:'Fira sans Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+=======
+         style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+         id="flowPara3738">ElongatePCB  Release Alpha</flowPara><flowPara
+         style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+         id="flowPara3740">Designed by Gondolindrim and MrKeebs</flowPara><flowPara
+         style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+>>>>>>> 3b18f78976a196233dbbdf30713fde4c508b67e4
          id="flowPara3742">&quot;Dude I give up. Can you fix this?&quot;</flowPara></flowRoot>  </g>
 </svg>
