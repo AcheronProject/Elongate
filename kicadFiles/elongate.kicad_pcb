@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 693)
+    (drawings 694)
     (tracks 1730)
     (zones 0)
     (modules 186)
@@ -100,7 +100,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../manuFiles/"))
+      (outputdirectory "../elongateGerbers"))
   )
 
   (net 0 "")
@@ -14387,6 +14387,18 @@
       ))
   )
 
+  (dimension 6.025 (width 0.15) (layer Dwgs.User)
+    (gr_text "6 mm" (at 169.165889 229.995661 270) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 174.221209 233.008161) (xy 169.879468 233.008161)))
+    (feature2 (pts (xy 174.221209 226.983161) (xy 169.879468 226.983161)))
+    (crossbar (pts (xy 170.465889 226.983161) (xy 170.465889 233.008161)))
+    (arrow1a (pts (xy 170.465889 233.008161) (xy 169.879468 231.881657)))
+    (arrow1b (pts (xy 170.465889 233.008161) (xy 171.05231 231.881657)))
+    (arrow2a (pts (xy 170.465889 226.983161) (xy 169.879468 228.109665)))
+    (arrow2b (pts (xy 170.465889 226.983161) (xy 171.05231 228.109665)))
+  )
   (gr_arc (start 224.460139 145.63773) (end 224.460138 148.177731) (angle 45) (layer Dwgs.User) (width 0.2) (tstamp 5D2A2E50))
   (gr_arc (start 215.113886 147.72148) (end 213.317835 145.925429) (angle 45) (layer Dwgs.User) (width 0.2) (tstamp 5D2A2B41))
   (gr_line (start 219.359681 145.18148) (end 215.113887 145.18148) (layer Dwgs.User) (width 0.2) (tstamp 5D2A2B8F))
