@@ -1,4 +1,4 @@
-update=Tue 26 May 2020 07:19:26 PM -03
+update=Sun 21 Jun 2020 02:09:57 PM -03
 last_client=kicad
 [schematic_editor]
 version=1
@@ -28,7 +28,7 @@ version=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-LastSTEPExportPath=
+LastSTEPExportPath=../elongate_V3.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
@@ -154,7 +154,7 @@ DimensionPrecision=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -356,4 +356,4 @@ dPairWidth=0.2032
 dPairGap=0.254
 dPairViaGap=0.25
 [sheetnames]
-1=979c9943-e9b0-4cf8-b260-e1cc4cdff5b1:
+1=53456753-891a-40b9-9749-884a25900e4e:

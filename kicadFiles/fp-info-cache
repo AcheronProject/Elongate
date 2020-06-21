@@ -267,7 +267,7 @@ UQFN{space}DFN_QFN
 49
 acheron_Components
 USON-10_2.5x1.0mm_P0.5mm
-USON-10{space}2.5x1.0mm_{space}Pitch{space}0.5mm{space}http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf
+USON-10{space}2.5x1.0mm_{brace}space}Pitch{space}0.5mm{space}http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf
 USON-10{space}2.5x1.0mm{space}Pitch{space}0.5mm
 0
 10

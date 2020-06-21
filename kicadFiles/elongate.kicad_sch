@@ -1,4 +1,4 @@
-(kicad_sch (version 20200512) (host eeschema "(5.99.0-1806-gf971e1267)")
+(kicad_sch (version 20200602) (host eeschema "(5.99.0-1913-g40250c427)")
 
   (page 1 1)
 
@@ -1052,8 +1052,8 @@
   (junction (at 504.19 290.83))
   (junction (at 504.19 322.58))
 
-  (no_connect (at 80.645 245.11))
   (no_connect (at 80.645 247.65))
+  (no_connect (at 80.645 245.11))
 
   (wire (pts (xy 27.94 328.93) (xy 27.94 327.025))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -2365,6 +2365,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 27.94 346.075 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e4bc1e5")
     (property "Reference" "#PWR021" (id 0) (at 27.94 352.425 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2381,6 +2382,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 38.1 346.075 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e5fa4fa")
     (property "Reference" "#PWR022" (id 0) (at 38.1 352.425 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2397,6 +2399,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 40.64 269.875 0) (unit 1)
+    (in_bom yes)
     (uuid "527d8f11-7542-4fcf-bfc9-8e6cf16a2bf8")
     (property "Reference" "#PWR0106" (id 0) (at 40.64 276.225 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2413,6 +2416,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 47.625 346.075 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e6237a3")
     (property "Reference" "#PWR023" (id 0) (at 47.625 352.425 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2429,6 +2433,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 57.785 269.875 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e53b298")
     (property "Reference" "#PWR0102" (id 0) (at 57.785 276.225 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2445,6 +2450,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 57.785 346.075 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e6237b9")
     (property "Reference" "#PWR024" (id 0) (at 57.785 352.425 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2461,6 +2467,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 64.135 256.54 0) (unit 1)
+    (in_bom yes)
     (uuid "4a9c4389-2e89-4e90-835d-ac160aadb365")
     (property "Reference" "#PWR0105" (id 0) (at 64.135 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2477,6 +2484,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 66.675 346.075 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e64f2f5")
     (property "Reference" "#PWR025" (id 0) (at 66.675 352.425 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2493,6 +2501,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 76.835 346.075 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e64f30b")
     (property "Reference" "#PWR026" (id 0) (at 76.835 352.425 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2509,6 +2518,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 88.265 201.93 90) (unit 1)
+    (in_bom yes)
     (uuid "ada5b1e4-b199-4077-919b-2d97fe86f2bd")
     (property "Reference" "#PWR0103" (id 0) (at 94.615 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2525,6 +2535,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 88.265 207.01 90) (unit 1)
+    (in_bom yes)
     (uuid "b3a8bba2-103e-482a-aa4d-15596b03daf5")
     (property "Reference" "#PWR0104" (id 0) (at 94.615 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2541,6 +2552,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 126.365 266.7 0) (unit 1)
+    (in_bom yes)
     (uuid "2f06e141-7700-48af-95b4-3794f67f4e82")
     (property "Reference" "#PWR0108" (id 0) (at 126.365 273.05 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2557,6 +2569,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 137.16 265.43 0) (unit 1)
+    (in_bom yes)
     (uuid "3fca035d-77ab-47ae-82ca-460a462b86da")
     (property "Reference" "#PWR0109" (id 0) (at 137.16 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2573,6 +2586,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 144.78 265.43 0) (unit 1)
+    (in_bom yes)
     (uuid "5a78b06d-2d52-4ce8-a377-feeb9b2ac71b")
     (property "Reference" "#PWR0107" (id 0) (at 144.78 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2589,6 +2603,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 294.64 115.57 0) (unit 1)
+    (in_bom yes)
     (uuid "72265e24-e9c0-4187-81c6-3e43281e04bf")
     (property "Reference" "#PWR0101" (id 0) (at 294.64 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2605,6 +2620,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 27.94 331.47 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e4ba6b5")
     (property "Reference" "R5" (id 0) (at 29.4386 330.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2621,6 +2637,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 38.1 331.47 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e5fa4f4")
     (property "Reference" "R6" (id 0) (at 39.5986 330.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2637,6 +2654,7 @@
   )
 
   (symbol (lib_name "Device:R_Small_4") (lib_id "Device:R_Small") (at 40.64 262.89 180) (unit 1)
+    (in_bom yes)
     (uuid "e3379f79-b552-44fd-a250-65924fb502ff")
     (property "Reference" "R4" (id 0) (at 39.37 262.255 0)
       (effects (font (size 0.762 0.762)) (justify left))
@@ -2656,6 +2674,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 47.625 331.47 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e62379d")
     (property "Reference" "R7" (id 0) (at 49.1236 330.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2672,6 +2691,7 @@
   )
 
   (symbol (lib_name "Device:R_Small_3") (lib_id "Device:R_Small") (at 57.785 262.89 180) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005da9e32c")
     (property "Reference" "R1" (id 0) (at 56.515 262.255 0)
       (effects (font (size 0.762 0.762)) (justify left))
@@ -2691,6 +2711,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 57.785 331.47 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e6237b3")
     (property "Reference" "R8" (id 0) (at 59.2836 330.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2707,6 +2728,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 66.675 331.47 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e64f2ef")
     (property "Reference" "R9" (id 0) (at 68.1736 330.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2723,6 +2745,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 76.835 331.47 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e64f305")
     (property "Reference" "R10" (id 0) (at 78.3336 330.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2739,6 +2762,7 @@
   )
 
   (symbol (lib_name "Device:R_Small_1") (lib_id "Device:R_Small") (at 84.455 201.93 270) (unit 1)
+    (in_bom yes)
     (uuid "e29d370e-5ef5-4852-8f01-df1ca581c60d")
     (property "Reference" "R2" (id 0) (at 84.455 198.755 90)
       (effects (font (size 0.762 0.762)))
@@ -2746,18 +2770,19 @@
     (property "Value" "5.1k" (id 1) (at 84.455 200.025 90)
       (effects (font (size 0.762 0.762)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 84.455 200.152 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 84.455 200.152 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 84.455 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "R1206" (id 4) (at 84.455 201.93 90)
+    (property "Package" "R0402" (id 4) (at 84.455 201.93 90)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
 
   (symbol (lib_name "Device:R_Small_2") (lib_id "Device:R_Small") (at 84.455 207.01 270) (unit 1)
+    (in_bom yes)
     (uuid "e36896a6-7b6d-45c2-b3d9-d23696a7207e")
     (property "Reference" "R3" (id 0) (at 84.455 210.185 90)
       (effects (font (size 0.762 0.762)))
@@ -2765,18 +2790,19 @@
     (property "Value" "5.1k" (id 1) (at 84.455 208.915 90)
       (effects (font (size 0.762 0.762)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 84.455 205.232 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 84.455 205.232 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 84.455 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "R1206" (id 4) (at 84.455 207.01 90)
+    (property "Package" "R0402" (id 4) (at 84.455 207.01 90)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
 
   (symbol (lib_name "Device:R_Small_5") (lib_id "Device:R_Small") (at 144.78 261.62 180) (unit 1)
+    (in_bom yes)
     (uuid "7b4d3d8e-7c21-4f38-9ae0-8a7373c00f43")
     (property "Reference" "R11" (id 0) (at 143.51 260.985 0)
       (effects (font (size 0.762 0.762)) (justify left))
@@ -2796,6 +2822,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 128.905 184.785 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d29ab69")
     (property "Reference" "L1" (id 0) (at 131.445 183.5912 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2812,6 +2839,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 128.905 190.5 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2ee938")
     (property "Reference" "L2" (id 0) (at 131.445 189.3062 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2828,6 +2856,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 128.905 196.215 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d331e56")
     (property "Reference" "L3" (id 0) (at 131.445 195.0212 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2844,6 +2873,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 128.905 201.93 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d39daa7")
     (property "Reference" "L4" (id 0) (at 131.445 200.7362 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2860,6 +2890,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 128.905 207.645 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d3bb7bc")
     (property "Reference" "L5" (id 0) (at 131.445 206.4512 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2876,6 +2907,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 33.02 262.89 0) (unit 1)
+    (in_bom yes)
     (uuid "1cfe76aa-05a4-4b75-9ec3-88bb89a7cf52")
     (property "Reference" "C2" (id 0) (at 28.575 262.255 0)
       (effects (font (size 0.762 0.762)))
@@ -2895,6 +2927,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 50.165 262.89 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005da9ed98")
     (property "Reference" "C1" (id 0) (at 45.72 262.255 0)
       (effects (font (size 0.762 0.762)))
@@ -2914,6 +2947,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 137.16 261.62 0) (unit 1)
+    (in_bom yes)
     (uuid "bd621f26-b064-4433-bd40-a39ecddf6903")
     (property "Reference" "C3" (id 0) (at 132.715 260.985 0)
       (effects (font (size 0.762 0.762)))
@@ -2933,6 +2967,7 @@
   )
 
   (symbol (lib_id "Device:D_TVS") (at 126.365 260.985 90) (unit 1)
+    (in_bom yes)
     (uuid "f0dc1a6c-aef0-4014-bb96-426b763fd04e")
     (property "Reference" "D55" (id 0) (at 121.285 260.35 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -2961,6 +2996,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 212.725 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-0000000000e0")
     (property "Reference" "D1" (id 0) (at 210.82 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -2977,6 +3013,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 212.725 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559515")
     (property "Reference" "D16" (id 0) (at 210.82 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -2993,6 +3030,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 212.725 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6664c2")
     (property "Reference" "D30" (id 0) (at 210.82 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3009,6 +3047,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 212.725 309.88 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a31ba")
     (property "Reference" "D44" (id 0) (at 210.82 309.245 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3025,6 +3064,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 237.49 340.995 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d510d5f")
     (property "Reference" "D15" (id 0) (at 235.585 340.36 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3041,6 +3081,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 238.125 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d298a7f")
     (property "Reference" "D2" (id 0) (at 236.22 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3057,6 +3098,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 238.125 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559521")
     (property "Reference" "D17" (id 0) (at 236.22 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3073,6 +3115,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 238.125 309.88 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a31c6")
     (property "Reference" "D45" (id 0) (at 236.22 309.245 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3089,6 +3132,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 263.525 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2b12b0")
     (property "Reference" "D3" (id 0) (at 261.62 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3105,6 +3149,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 263.525 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d55952d")
     (property "Reference" "D18" (id 0) (at 261.62 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3121,6 +3166,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 263.525 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6664da")
     (property "Reference" "D31" (id 0) (at 261.62 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3137,6 +3183,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 263.525 309.88 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a31d2")
     (property "Reference" "D46" (id 0) (at 261.62 309.245 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3153,6 +3200,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 263.525 340.995 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d5595bd")
     (property "Reference" "D29" (id 0) (at 261.62 340.36 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3169,6 +3217,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 288.925 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2b12bc")
     (property "Reference" "D4" (id 0) (at 287.02 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3185,6 +3234,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 288.925 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559539")
     (property "Reference" "D19" (id 0) (at 287.02 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3201,6 +3251,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 288.925 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6664e6")
     (property "Reference" "D32" (id 0) (at 287.02 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3217,6 +3268,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 314.325 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2c91a1")
     (property "Reference" "D5" (id 0) (at 312.42 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3233,6 +3285,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 314.325 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559545")
     (property "Reference" "D20" (id 0) (at 312.42 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3249,6 +3302,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 314.325 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6664f2")
     (property "Reference" "D33" (id 0) (at 312.42 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3265,6 +3319,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 314.325 309.88 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a31ea")
     (property "Reference" "D47" (id 0) (at 312.42 309.245 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3281,6 +3336,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 315.595 343.535 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d66656a")
     (property "Reference" "D43" (id 0) (at 313.69 342.9 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3297,6 +3353,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 339.725 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2c91ad")
     (property "Reference" "D6" (id 0) (at 337.82 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3313,6 +3370,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 339.725 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559551")
     (property "Reference" "D21" (id 0) (at 337.82 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3329,6 +3387,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 339.725 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6664fe")
     (property "Reference" "D34" (id 0) (at 337.82 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3345,6 +3404,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 365.125 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2f8eb5")
     (property "Reference" "D7" (id 0) (at 363.22 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3361,6 +3421,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 365.125 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d55955d")
     (property "Reference" "D22" (id 0) (at 363.22 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3377,6 +3438,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 365.125 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d66650a")
     (property "Reference" "D35" (id 0) (at 363.22 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3393,6 +3455,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 389.89 343.535 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a3262")
     (property "Reference" "D54" (id 0) (at 387.985 342.9 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3409,6 +3472,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 390.525 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2f8ec1")
     (property "Reference" "D8" (id 0) (at 388.62 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3425,6 +3489,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 390.525 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559569")
     (property "Reference" "D23" (id 0) (at 388.62 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3441,6 +3506,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 390.525 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666516")
     (property "Reference" "D36" (id 0) (at 388.62 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3457,6 +3523,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 390.525 309.88 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a320e")
     (property "Reference" "D48" (id 0) (at 388.62 309.245 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3473,6 +3540,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 415.925 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d310c14")
     (property "Reference" "D9" (id 0) (at 414.02 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3489,6 +3557,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 415.925 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559575")
     (property "Reference" "D24" (id 0) (at 414.02 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3505,6 +3574,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 415.925 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666522")
     (property "Reference" "D37" (id 0) (at 414.02 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3521,6 +3591,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 441.325 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d310c20")
     (property "Reference" "D10" (id 0) (at 439.42 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3537,6 +3608,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 441.325 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559581")
     (property "Reference" "D25" (id 0) (at 439.42 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3553,6 +3625,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 441.325 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d66652e")
     (property "Reference" "D38" (id 0) (at 439.42 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3569,6 +3642,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 441.325 309.88 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a3226")
     (property "Reference" "D49" (id 0) (at 439.42 309.245 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3585,6 +3659,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 441.96 343.535 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d34279e")
     (property "Reference" "D14" (id 0) (at 440.055 342.9 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3601,6 +3676,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 466.725 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d3299b1")
     (property "Reference" "D11" (id 0) (at 464.82 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3617,6 +3693,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 466.725 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d66653a")
     (property "Reference" "D39" (id 0) (at 464.82 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3633,6 +3710,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 466.725 309.88 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a3232")
     (property "Reference" "D50" (id 0) (at 464.82 309.245 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3649,6 +3727,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 466.725 343.535 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d5595b1")
     (property "Reference" "D28" (id 0) (at 464.82 342.9 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3665,6 +3744,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 492.125 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d3299bd")
     (property "Reference" "D12" (id 0) (at 490.22 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3681,6 +3761,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 492.125 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559599")
     (property "Reference" "D26" (id 0) (at 490.22 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3697,6 +3778,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 492.125 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666546")
     (property "Reference" "D40" (id 0) (at 490.22 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3713,6 +3795,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 492.125 309.88 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a323e")
     (property "Reference" "D51" (id 0) (at 490.22 309.245 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3729,6 +3812,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 492.125 340.36 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d66655e")
     (property "Reference" "D42" (id 0) (at 490.22 339.725 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3745,6 +3829,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 517.525 214.63 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d342792")
     (property "Reference" "D13" (id 0) (at 515.62 213.995 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3761,6 +3846,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 517.525 246.38 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d5595a5")
     (property "Reference" "D27" (id 0) (at 515.62 245.745 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3777,6 +3863,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 517.525 278.13 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666552")
     (property "Reference" "D41" (id 0) (at 515.62 277.495 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3793,6 +3880,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 517.525 309.88 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a324a")
     (property "Reference" "D52" (id 0) (at 515.62 309.245 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3809,6 +3897,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 517.525 340.36 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a3256")
     (property "Reference" "D53" (id 0) (at 515.62 339.725 90)
       (effects (font (size 0.762 0.762)) (justify right))
@@ -3825,6 +3914,7 @@
   )
 
   (symbol (lib_id "Device:Polyfuse") (at 119.38 255.27 90) (unit 1)
+    (in_bom yes)
     (uuid "63ed9952-28e7-4b92-8083-8eee47ea7fcc")
     (property "Reference" "F1" (id 0) (at 119.38 249.6628 90))
     (property "Value" "Polyfuse" (id 1) (at 119.38 251.9615 90))
@@ -3840,6 +3930,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:LED") (at 27.94 340.36 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e4b86f1")
     (property "Reference" "LED1" (id 0) (at 31.496 339.8012 90)
       (effects (font (size 0.508 0.508)) (justify left))
@@ -3856,6 +3947,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:LED") (at 38.1 340.36 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e5fa4ee")
     (property "Reference" "LED2" (id 0) (at 41.656 339.8012 90)
       (effects (font (size 0.508 0.508)) (justify left))
@@ -3872,6 +3964,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:LED") (at 47.625 340.36 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e623797")
     (property "Reference" "LED3" (id 0) (at 51.181 339.8012 90)
       (effects (font (size 0.508 0.508)) (justify left))
@@ -3888,6 +3981,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:LED") (at 57.785 340.36 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e6237ad")
     (property "Reference" "LED4" (id 0) (at 61.341 339.8012 90)
       (effects (font (size 0.508 0.508)) (justify left))
@@ -3904,6 +3998,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:LED") (at 66.675 340.36 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e64f2e9")
     (property "Reference" "LED5" (id 0) (at 70.231 339.8012 90)
       (effects (font (size 0.508 0.508)) (justify left))
@@ -3920,6 +4015,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:LED") (at 76.835 340.36 270) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005e64f2ff")
     (property "Reference" "LED6" (id 0) (at 80.391 339.8012 90)
       (effects (font (size 0.508 0.508)) (justify left))
@@ -3936,6 +4032,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 212.725 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d294e05")
     (property "Reference" "SW1" (id 0) (at 212.725 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -3952,6 +4049,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 212.725 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d55951b")
     (property "Reference" "SW16" (id 0) (at 212.725 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -3968,6 +4066,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 212.725 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6664c8")
     (property "Reference" "SW30" (id 0) (at 212.725 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -3984,6 +4083,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 212.725 322.58 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a31c0")
     (property "Reference" "SW44" (id 0) (at 212.725 320.675 0)
       (effects (font (size 0.762 0.762)))
@@ -4000,6 +4100,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 237.49 353.695 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d510d65")
     (property "Reference" "SW15" (id 0) (at 237.49 351.79 0)
       (effects (font (size 0.762 0.762)))
@@ -4016,6 +4117,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 238.125 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d298a85")
     (property "Reference" "SW2" (id 0) (at 238.125 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4032,6 +4134,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 238.125 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559527")
     (property "Reference" "SW17" (id 0) (at 238.125 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4048,6 +4151,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 238.125 322.58 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a31cc")
     (property "Reference" "SW45" (id 0) (at 238.125 320.675 0)
       (effects (font (size 0.762 0.762)))
@@ -4064,6 +4168,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 263.525 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2b12b6")
     (property "Reference" "SW3" (id 0) (at 263.525 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4080,6 +4185,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 263.525 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559533")
     (property "Reference" "SW18" (id 0) (at 263.525 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4096,6 +4202,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 263.525 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6664e0")
     (property "Reference" "SW31" (id 0) (at 263.525 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4112,6 +4219,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 263.525 322.58 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a31d8")
     (property "Reference" "SW46" (id 0) (at 263.525 320.675 0)
       (effects (font (size 0.762 0.762)))
@@ -4128,6 +4236,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 263.525 353.695 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d5595c3")
     (property "Reference" "SW29" (id 0) (at 263.525 351.79 0)
       (effects (font (size 0.762 0.762)))
@@ -4144,6 +4253,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 288.925 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2b12c2")
     (property "Reference" "SW4" (id 0) (at 288.925 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4160,6 +4270,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 288.925 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d55953f")
     (property "Reference" "SW19" (id 0) (at 288.925 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4176,6 +4287,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 288.925 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6664ec")
     (property "Reference" "SW32" (id 0) (at 288.925 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4192,6 +4304,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 314.325 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2c91a7")
     (property "Reference" "SW5" (id 0) (at 314.325 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4208,6 +4321,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 314.325 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d55954b")
     (property "Reference" "SW20" (id 0) (at 314.325 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4224,6 +4338,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 314.325 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6664f8")
     (property "Reference" "SW33" (id 0) (at 314.325 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4240,6 +4355,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 314.325 322.58 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a31f0")
     (property "Reference" "SW47" (id 0) (at 314.325 320.675 0)
       (effects (font (size 0.762 0.762)))
@@ -4256,6 +4372,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 315.595 356.235 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666570")
     (property "Reference" "SW43" (id 0) (at 315.595 354.33 0)
       (effects (font (size 0.762 0.762)))
@@ -4272,6 +4389,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 339.725 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2c91b3")
     (property "Reference" "SW6" (id 0) (at 339.725 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4288,6 +4406,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 339.725 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559557")
     (property "Reference" "SW21" (id 0) (at 339.725 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4304,6 +4423,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 339.725 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666504")
     (property "Reference" "SW34" (id 0) (at 339.725 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4320,6 +4440,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 365.125 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2f8ebb")
     (property "Reference" "SW7" (id 0) (at 365.125 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4336,6 +4457,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 365.125 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559563")
     (property "Reference" "SW22" (id 0) (at 365.125 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4352,6 +4474,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 365.125 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666510")
     (property "Reference" "SW35" (id 0) (at 365.125 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4368,6 +4491,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 389.89 356.235 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a3268")
     (property "Reference" "SW54" (id 0) (at 389.89 354.33 0)
       (effects (font (size 0.762 0.762)))
@@ -4384,6 +4508,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 390.525 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d2f8ec7")
     (property "Reference" "SW8" (id 0) (at 390.525 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4400,6 +4525,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 390.525 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d55956f")
     (property "Reference" "SW23" (id 0) (at 390.525 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4416,6 +4542,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 390.525 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d66651c")
     (property "Reference" "SW36" (id 0) (at 390.525 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4432,6 +4559,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 390.525 322.58 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a3214")
     (property "Reference" "SW48" (id 0) (at 390.525 320.675 0)
       (effects (font (size 0.762 0.762)))
@@ -4448,6 +4576,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 415.925 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d310c1a")
     (property "Reference" "SW9" (id 0) (at 415.925 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4464,6 +4593,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 415.925 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d55957b")
     (property "Reference" "SW24" (id 0) (at 415.925 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4480,6 +4610,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 415.925 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666528")
     (property "Reference" "SW37" (id 0) (at 415.925 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4496,6 +4627,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 441.325 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d310c26")
     (property "Reference" "SW10" (id 0) (at 441.325 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4512,6 +4644,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 441.325 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d559587")
     (property "Reference" "SW25" (id 0) (at 441.325 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4528,6 +4661,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 441.325 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666534")
     (property "Reference" "SW38" (id 0) (at 441.325 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4544,6 +4678,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 441.325 322.58 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a322c")
     (property "Reference" "SW49" (id 0) (at 441.325 320.675 0)
       (effects (font (size 0.762 0.762)))
@@ -4560,6 +4695,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 441.96 356.235 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d3427a4")
     (property "Reference" "SW14" (id 0) (at 441.96 354.33 0)
       (effects (font (size 0.762 0.762)))
@@ -4576,6 +4712,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 466.725 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d3299b7")
     (property "Reference" "SW11" (id 0) (at 466.725 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4592,6 +4729,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 466.725 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666540")
     (property "Reference" "SW39" (id 0) (at 466.725 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4608,6 +4746,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 466.725 322.58 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a3238")
     (property "Reference" "SW50" (id 0) (at 466.725 320.675 0)
       (effects (font (size 0.762 0.762)))
@@ -4624,6 +4763,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 466.725 356.235 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d5595b7")
     (property "Reference" "SW28" (id 0) (at 466.725 354.33 0)
       (effects (font (size 0.762 0.762)))
@@ -4640,6 +4780,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 492.125 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d3299c3")
     (property "Reference" "SW12" (id 0) (at 492.125 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4656,6 +4797,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 492.125 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d55959f")
     (property "Reference" "SW26" (id 0) (at 492.125 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4672,6 +4814,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 492.125 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d66654c")
     (property "Reference" "SW40" (id 0) (at 492.125 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4688,6 +4831,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 492.125 322.58 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a3244")
     (property "Reference" "SW51" (id 0) (at 492.125 320.675 0)
       (effects (font (size 0.762 0.762)))
@@ -4704,6 +4848,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 492.125 353.06 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666564")
     (property "Reference" "SW42" (id 0) (at 492.125 351.155 0)
       (effects (font (size 0.762 0.762)))
@@ -4720,6 +4865,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 517.525 227.33 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d342798")
     (property "Reference" "SW13" (id 0) (at 517.525 225.425 0)
       (effects (font (size 0.762 0.762)))
@@ -4736,6 +4882,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 517.525 259.08 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d5595ab")
     (property "Reference" "SW27" (id 0) (at 517.525 257.175 0)
       (effects (font (size 0.762 0.762)))
@@ -4752,6 +4899,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 517.525 290.83 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d666558")
     (property "Reference" "SW41" (id 0) (at 517.525 288.925 0)
       (effects (font (size 0.762 0.762)))
@@ -4768,6 +4916,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 517.525 322.58 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a3250")
     (property "Reference" "SW52" (id 0) (at 517.525 320.675 0)
       (effects (font (size 0.762 0.762)))
@@ -4784,6 +4933,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:MXSwitch") (at 517.525 353.06 0) (unit 1)
+    (in_bom yes)
     (uuid "00000000-0000-0000-0000-00005d6a325c")
     (property "Reference" "SW53" (id 0) (at 517.525 351.155 0)
       (effects (font (size 0.762 0.762)))
@@ -4800,6 +4950,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:TPD4E05U06DQAR") (at 294.64 101.6 0) (unit 1)
+    (in_bom yes)
     (uuid "65b4d20c-5cb2-4808-a457-32ef10d39002")
     (property "Reference" "U1" (id 0) (at 294.64 89.7698 0))
     (property "Value" "TPD4E05U06DQAR" (id 1) (at 294.64 92.0685 0))
@@ -4824,6 +4975,7 @@
   )
 
   (symbol (lib_id "acheronSymbols:TYPE-C-31-M12_13") (at 65.405 218.44 0) (unit 1)
+    (in_bom yes)
     (uuid "277938a2-cbfe-464e-9b76-e9d129e6cbd5")
     (property "Reference" "J1" (id 0) (at 68.072 182.4798 0))
     (property "Value" "TYPE-C-31-M12_13" (id 1) (at 68.072 184.7785 0))
