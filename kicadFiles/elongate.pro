@@ -1,4 +1,4 @@
-update=Tue 23 Jun 2020 01:25:45 AM -03
+update=Tue 23 Jun 2020 03:46:21 AM -03
 last_client=kicad
 [schematic_editor]
 version=1
@@ -28,6 +28,8 @@ version=1
 version=1
 [ModEditFrame]
 version=1
+[sheetnames]
+1=469cdce7-85fe-4bc6-b138-3c55f94d4604:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -42,7 +44,7 @@ BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 MinClearance=0
-MinTrackWidth=0.2032
+MinTrackWidth=0.1524
 MinViaAnnulus=0.05
 MinViaDiameter=0.4064
 MinThroughDrill=0.3048
@@ -359,5 +361,3 @@ uViaDrill=0.1016
 dPairWidth=0.2032
 dPairGap=0.254
 dPairViaGap=0.25
-[sheetnames]
-1=24a7bc88-9b77-4115-bf54-f943fcfa7afc:
