@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,42 +7,44 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="40.817383mm"
-   height="20mm"
-   viewBox="0 0 40.817383 20"
-   version="1.1"
+   inkscape:export-ydpi="1000"
+   inkscape:export-xdpi="1000"
+   inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/Elongate/graphics/label_logo/elongateLabel.png"
+   sodipodi:docname="elongateLabel.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg8"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="elongateLabel.svg">
+   version="1.1"
+   viewBox="0 0 144.00626 51.50116"
+   height="51.50116mm"
+   width="144.00626mm">
   <defs
-     id="defs2" />
+     id="defs2">
+    <rect
+       id="rect835"
+       height="259.77313"
+       width="482.01266"
+       y="35.771671"
+       x="18.032492" />
+  </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-<<<<<<< HEAD
-     inkscape:cx="84.695751"
-     inkscape:cy="43.571377"
-=======
-     inkscape:cx="131.59933"
-     inkscape:cy="12.123647"
->>>>>>> 3b18f78976a196233dbbdf30713fde4c508b67e4
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1052"
+     inkscape:window-maximized="1"
+     inkscape:window-y="310"
      inkscape:window-x="1920"
-     inkscape:window-y="294"
-     inkscape:window-maximized="1" />
+     inkscape:window-height="1043"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="64.047785"
+     inkscape:cx="295.92657"
+     inkscape:zoom="0.98994949"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -58,39 +58,33 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     transform="translate(-22.780798,-75.588063)"
      id="layer1"
-     transform="translate(-36.589,-55.769939)">
-    <flowRoot
-       inkscape:export-ydpi="10000"
-       inkscape:export-xdpi="10000"
-       transform="matrix(0.10390419,0,0,0.10390419,26.729925,38.238432)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.5;font-family:'Fira sans';-inkscape-font-specification:'Fira sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot3744"
-       xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.5;font-family:'Fira sans';-inkscape-font-specification:'Fira sans'"
-         id="flowRegion3736"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.5;font-family:'Fira sans';-inkscape-font-specification:'Fira sans'"
-           y="221.09111"
-           x="151.78572"
-           height="110.03619"
-           width="281.72739"
-           id="rect3734" /></flowRegion><flowPara
-<<<<<<< HEAD
-         style="font-size:14.10477352px;line-height:1.5;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-         id="flowPara923">ElongatePCB pre-release Beta</flowPara><flowPara
-         style="font-size:14.10477352px;line-height:1.5;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-         id="flowPara919">Designed by Gondolindrim</flowPara><flowPara
-         style="font-size:14.10477352px;line-height:1.5;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-         id="flowPara925">In partnership with MrKeebs</flowPara><flowPara
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.10477352px;line-height:1.5;font-family:'Fira sans';-inkscape-font-specification:'Fira sans Italic';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-=======
-         style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-         id="flowPara3738">ElongatePCB  Release Alpha</flowPara><flowPara
-         style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
-         id="flowPara3740">Designed by Gondolindrim and MrKeebs</flowPara><flowPara
-         style="line-height:2.25;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
->>>>>>> 3b18f78976a196233dbbdf30713fde4c508b67e4
-         id="flowPara3742">&quot;Dude I give up. Can you fix this?&quot;</flowPara></flowRoot>  </g>
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <text
+       transform="translate(-164.34557,38.069921)"
+       y="0"
+       x="72.452713"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Tengwar Annatar';-inkscape-font-specification:'Tengwar Annatar';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none;"
+       id="text833"
+       xml:space="preserve"><tspan
+         x="186.08768"
+         y="45.558969"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle">ElongatePCB rev. pre-Gamma
+</tspan></tspan><tspan
+         x="193.00971"
+         y="59.198256"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle">Designed by Gondolindrim
+</tspan></tspan><tspan
+         x="203.16151"
+         y="72.837542"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle">With 159 and MrKeebs
+</tspan></tspan><tspan
+         x="194.98116"
+         y="86.476831"><tspan
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic'">&quot;I give up. Can you fix this?&quot;</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle">
+</tspan></tspan></text>
+  </g>
 </svg>
