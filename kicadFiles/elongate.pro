@@ -1,7 +1,5 @@
-update=Tue 23 Jun 2020 04:18:03 PM -03
+update=Mon 29 Jun 2020 11:25:51 PM -03
 last_client=kicad
-[SchematicFrame]
-version=1
 [PcbFrame]
 version=1
 [ModEditFrame]
@@ -361,3 +359,5 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[SchematicFrame]
+version=1
