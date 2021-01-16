@@ -1,4 +1,4 @@
-19056708567497022
+19099451091849349
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46878,69 +46878,6 @@ MesurementPoint Square SMDPad 5mmx10mm
 0
 1
 1
-Connector_Wuerth
-Wuerth_WR-WTB_64800211622_1x02_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800211622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-2
-2
-Connector_Wuerth
-Wuerth_WR-WTB_64800311622_1x03_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800311622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-3
-3
-Connector_Wuerth
-Wuerth_WR-WTB_64800411622_1x04_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800411622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-4
-4
-Connector_Wuerth
-Wuerth_WR-WTB_64800511622_1x05_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800511622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-5
-5
-Connector_Wuerth
-Wuerth_WR-WTB_64800611622_1x06_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800611622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-6
-6
-Connector_Wuerth
-Wuerth_WR-WTB_64800711622_1x07_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800711622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-7
-7
-Connector_Wuerth
-Wuerth_WR-WTB_64800811622_1x08_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800811622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-8
-8
-Connector_Wuerth
-Wuerth_WR-WTB_64800911622_1x09_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64800911622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-9
-9
-Connector_Wuerth
-Wuerth_WR-WTB_64801011622_1x10_P1.50mm_Vertical
-Wuerth WR-WTB series connector, 64801011622 (https://katalog.we-online.com/em/datasheet/6480xx11622.pdf), generated with kicad-footprint-generator
-connector Wuerth WR-WTB vertical
-0
-10
-10
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
@@ -81781,6 +81718,20 @@ ACM2012-2P
 4
 4
 acheron_Components
+CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder
+Tantalum Capacitor SMD Kemet-I (3216-10 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+acheron_Components
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+acheron_Components
 Crystal_SMD_0603-2Pin_6.0x3.5mm
 SMD Crystal SERIES SMD0603/2 http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-2.pdf, 6.0x3.5mm^2 package
 SMD SMT crystal
@@ -81925,12 +81876,26 @@ LED_THT_2.54mm
 
 
 0
+4
 2
-2
+acheron_Components
+LED_WS2812B-Mini_3.5x3.5mm
+https://e-neon.ru/catalog_files/pdf2/ws2812b-mini(3535)%20datasheet-v1.0.pdf
+RGB LED with integrated controller, 3535 package
+0
+4
+4
 acheron_Components
 LED_WS2812B_5.0x5.0mm_P3.2mm
 https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
 LED RGB NeoPixel
+0
+4
+4
+acheron_Components
+LED_WS2812_2020
+
+
 0
 4
 4
@@ -81948,6 +81913,13 @@ SSOP 0.65
 0
 13
 9
+acheron_Components
+QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm
+QFN, 16 Pin (https://www.nxp.com/docs/en/package-information/98ASA00525D.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+21
+17
 acheron_Components
 QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm
 QFN, 28 Pin (http://www.issi.com/WW/pdf/31FL3731.pdf#page=21), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -81984,6 +81956,13 @@ Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.
 2
 2
 acheron_Components
+SK6812MINI_3535_6028_3.2x2.8mm_Round
+
+
+0
+4
+4
+acheron_Components
 SOIC-8
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
 SOIC 1.27
@@ -82005,6 +81984,20 @@ SOT-23-6
 6
 6
 acheron_Components
+SOT-143
+SOT-143
+SOT-143
+0
+4
+4
+acheron_Components
+SOT-363_SC-70-6
+SOT-363, SC-70-6
+SOT-363 SC-70-6
+0
+6
+6
+acheron_Components
 TQPF-44_10x10mm_P0.8mm
 44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
 QFP 0.8
@@ -82018,6 +82011,20 @@ UQFN DFN_QFN
 0
 53
 49
+acheron_Components
+USON-10_2.5x1.0mm_P0.5mm
+USON-10 2.5x1.0mm_ Pitch 0.5mm http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf
+USON-10 2.5x1.0mm Pitch 0.5mm
+0
+10
+10
+acheron_Connectors
+Conn_ARM_JTAG_SWD_6
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+6
+6
 acheron_Connectors
 Conn_ARM_JTAG_SWD_10
 Through hole straight pin header, 1x14, 2.54mm pitch, single row
@@ -82033,19 +82040,26 @@ Through hole pin header THT 1x14 2.54mm single row
 6
 6
 acheron_Connectors
-JSTBM04B-ASRS
-
+Korean-Hroparts_ U-F-M5DD-W-2
+USB mini-B connector with THT mounting and SMD pins
 
 0
-10
+9
 6
 acheron_Connectors
-JST_BM04B-ASRS
-
-
+PinHeader_1x2_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
 0
-6
-5
+2
+2
+acheron_Connectors
+PinHeader_1x3_staggered_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+3
+3
 acheron_Connectors
 PinHeader_1x4_P2.54mm_Angled
 
@@ -82096,6 +82110,13 @@ Through hole pin header THT 1x14 2.54mm single row
 8
 8
 acheron_Connectors
+PinHeader_1x9_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+9
+9
+acheron_Connectors
 PinHeader_1x10_P2.54mm_Vertical
 Through hole straight pin header, 1x14, 2.54mm pitch, single row
 Through hole pin header THT 1x14 2.54mm single row
@@ -82103,12 +82124,26 @@ Through hole pin header THT 1x14 2.54mm single row
 10
 10
 acheron_Connectors
+PinHeader_1x12_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+12
+12
+acheron_Connectors
 PinHeader_1x14_P2.54mm_Vertical
 Through hole straight pin header, 1x14, 2.54mm pitch, single row
 Through hole pin header THT 1x14 2.54mm single row
 0
 14
 14
+acheron_Connectors
+PinHeader_1x16_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+16
+16
 acheron_Connectors
 PinHeader_1x19_P2.54mm_Vertical
 Through hole straight pin header, 1x14, 2.54mm pitch, single row
@@ -82121,8 +82156,8 @@ PinHeader_1x20_P2.54mm_Vertical
 Through hole straight pin header, 1x14, 2.54mm pitch, single row
 Through hole pin header THT 1x14 2.54mm single row
 0
-14
-14
+20
+20
 acheron_Connectors
 PinHeader_2x3_P2.54mm_Vertical
 Through hole straight pin header, 1x14, 2.54mm pitch, single row
@@ -82138,12 +82173,138 @@ Through hole pin header THT 1x14 2.54mm single row
 10
 10
 acheron_Connectors
+PinHeader_2x7_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+14
+14
+acheron_Connectors
+PinHeader_2x8_P2.54mm_Vertical
+Through hole straight pin header, 2x8, 2.54mm pitch, dual row
+Through hole pin header THT 1x14 2.54mm single row
+0
+16
+16
+acheron_Connectors
+PinHeader_2x10_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+20
+20
+acheron_Connectors
+PinHeader_3x4_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+12
+12
+acheron_Connectors
+PinHeader_3x5_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+15
+15
+acheron_Connectors
+SM04B-SRSS-TB(LF)(SN)
+
+
+0
+6
+6
+acheron_Connectors
+SM04B-SRSS-TB(LF)(SN)_mounting-reliefs
+
+
+0
+20
+5
+acheron_Connectors
+SM05B-SRSS
+
+
+0
+7
+6
+acheron_Connectors
+SM05B-SRSS_MountingPin
+
+
+0
+21
+6
+acheron_Connectors
+SM11B-SRSS
+
+
+0
+13
+11
+acheron_Connectors
+SM13B-SRSS
+
+
+0
+15
+13
+acheron_Connectors
+SM14B-SRSS
+
+
+0
+16
+14
+acheron_Connectors
+SM20B-SRSS
+
+
+0
+22
+20
+acheron_Connectors
+TE_1744426-4
+
+
+0
+4
+4
+acheron_Connectors
+TE_2132415-4
+
+
+0
+4
+4
+acheron_Connectors
 TYPE-C-31-M-12
 
 
 0
-17
+16
 13
+acheron_Connectors
+TYPE-C-31-M-14
+
+
+0
+16
+13
+acheron_Connectors
+USB3_A_Amphenol_GSB411B34HR
+USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
+USB 3.0 type A right angle
+0
+19
+10
+acheron_Connectors
+USB_C_Receptacle_Wurth_Elektronik_632723x00011
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+34
+26
 acheron_Connectors
 USB_MiniB_Hirose_UX60-MB-5S8
 
@@ -82158,6 +82319,13 @@ USB_MiniB_XM7D-0512
 0
 18
 6
+acheron_Connectors
+Wurth_632723300011
+
+
+0
+30
+25
 acheron_Graphics
 brazilFlag
 
@@ -82165,6 +82333,13 @@ brazilFlag
 0
 3
 1
+acheron_Graphics
+grounding_sign_3.6x3.2mm
+
+
+0
+0
+0
 acheron_Graphics
 osh-logo
 
@@ -82215,12 +82390,40 @@ acheron_Hardware
 3
 3
 acheron_Hardware
+9774010243
+SMT steel spacer, M2 internal thread
+
+0
+2
+1
+acheron_Hardware
+9774030243R
+SMT steel spacer, M2 internal thread
+
+0
+2
+1
+acheron_Hardware
 ALPS_EC11E
 
 
 0
-7
-5
+14
+6
+acheron_Hardware
+K2-1187SQ-A4SW-06
+ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html
+SPST Button Switch
+0
+4
+2
+acheron_Hardware
+KEYSTONE-3030
+
+
+0
+3
+2
 acheron_Hardware
 MDBT40-256RV3
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
@@ -82236,6 +82439,13 @@ MouseBite_IPC7351
 0
 0
 acheron_Hardware
+RKJXT1F
+
+
+0
+10
+10
+acheron_Hardware
 bluePill
 
 
@@ -82243,12 +82453,12 @@ bluePill
 50
 49
 acheron_Hardware
-smdPushBtn
-ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html
-SPST Button Switch
+mini_f4_stm32f4x1
+
+
 0
-4
-2
+44
+44
 acheron_Logos
 acheronLong
 
@@ -82306,21 +82516,7 @@ MX100
 2
 2
 acheron_MX
-MX100H
-
-
-0
-2
-2
-acheron_MX
 MX125
-
-
-0
-2
-2
-acheron_MX
-MX125H
 
 
 0
@@ -82334,13 +82530,6 @@ MX150
 2
 2
 acheron_MX
-MX150H
-
-
-0
-2
-2
-acheron_MX
 MX175
 
 
@@ -82348,28 +82537,7 @@ MX175
 2
 2
 acheron_MX
-MX175H
-
-
-0
-2
-2
-acheron_MX
 MX200
-
-
-0
-2
-2
-acheron_MX
-MX200H
-
-
-0
-2
-2
-acheron_MX
-MX200HR
 
 
 0
@@ -82404,20 +82572,6 @@ MX225
 2
 2
 acheron_MX
-MX225H
-
-
-0
-2
-2
-acheron_MX
-MX225HR
-
-
-0
-2
-2
-acheron_MX
 MX225R
 
 
@@ -82426,20 +82580,6 @@ MX225R
 2
 acheron_MX
 MX250
-
-
-0
-2
-2
-acheron_MX
-MX250H
-
-
-0
-2
-2
-acheron_MX
-MX250HR
 
 
 0
@@ -82460,20 +82600,6 @@ MX275
 2
 2
 acheron_MX
-MX275H
-
-
-0
-2
-2
-acheron_MX
-MX275HR
-
-
-0
-2
-2
-acheron_MX
 MX275R
 
 
@@ -82482,20 +82608,6 @@ MX275R
 2
 acheron_MX
 MX300
-
-
-0
-2
-2
-acheron_MX
-MX300H
-
-
-0
-2
-2
-acheron_MX
-MX300HR
 
 
 0
@@ -82516,20 +82628,6 @@ MX600
 2
 2
 acheron_MX
-MX600H
-
-
-0
-2
-2
-acheron_MX
-MX600HR
-
-
-0
-2
-2
-acheron_MX
 MX600R
 
 
@@ -82538,20 +82636,6 @@ MX600R
 2
 acheron_MX
 MX625
-
-
-0
-2
-2
-acheron_MX
-MX625H
-
-
-0
-2
-2
-acheron_MX
-MX625HR
 
 
 0
@@ -82572,20 +82656,6 @@ MX700
 2
 2
 acheron_MX
-MX700H
-
-
-0
-2
-2
-acheron_MX
-MX700HR
-
-
-0
-2
-2
-acheron_MX
 MX700R
 
 
@@ -82599,152 +82669,152 @@ MX_ISOEnter
 0
 2
 2
-acheron_MX
-MX_ISOEnter_Vertical
-
-
-0
-2
-2
 acheron_MXA
 MXA100
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA125
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA150
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA175
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA200
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA200R
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA225
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA225R
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA250
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA250R
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA275
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA275R
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA300
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA300R
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA600
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA600R
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA625
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA625R
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA700
 
 
 0
-5
+3
 2
 acheron_MXA
 MXA700R
 
 
 0
-5
+3
+2
+acheron_MXA
+MXA_ISO_Enter
+
+
+0
+4
 2
 acheron_MX_SolderMask
 MX100
@@ -82908,7 +82978,7 @@ MX_ISOEnter
 4
 2
 acheron_MX_SolderMask
-MX_ISOEnter_Vertical
+MX_ISOEnter_LED
 
 
 0
@@ -82948,7 +83018,7 @@ MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm
 
 0
 1
-1
+0
 acheron_MountingHoles
 MoutingHole_Oval_Poker_7mm_5.0x2.5mm
 
@@ -82957,44 +83027,16 @@ MoutingHole_Oval_Poker_7mm_5.0x2.5mm
 1
 1
 acheron_MountingHoles
+ToolingHole_1.152mm_(for_JLCPCB_SMT)
+
+
+0
+0
+0
+acheron_MountingHoles
 halfSideHole
 
 
 0
 1
 0
-acheron_SwitchSlots
-slotMX100
-
-
-0
-0
-0
-acheron_SwitchSlots
-slotMX200
-
-
-0
-0
-0
-acheron_SwitchSlots
-slotMX400
-
-
-0
-0
-0
-elongateGraphics
-elongateLabel
-
-
-0
-0
-0
-elongateGraphics
-elongateLogo
-
-
-0
-11
-1
