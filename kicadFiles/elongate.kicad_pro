@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.6,
+          "height": 1.4,
+          "width": 0.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -66,7 +66,7 @@
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_too_small": "error",
+        "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "hole_clearance": "error",
@@ -76,7 +76,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "malformed_courtyard": "error",
-        "microvia_drill_too_small": "error",
+        "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
@@ -116,18 +116,18 @@
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.25,
         "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.254,
+        0.0,
         0.1524,
         0.508,
         1.016
       ],
       "via_dimensions": [
         {
-          "diameter": 0.8128,
-          "drill": 0.4064
+          "diameter": 0.0,
+          "drill": 0.0
         },
         {
           "diameter": 0.508,
@@ -397,7 +397,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../gamma/elongate_V3.step",
+      "step": "../../../../../Downloads/elongate_V3.4_1.6mm.step",
       "vmrl": "../gamma/elongate_V3.wrl",
       "vrml": ""
     },

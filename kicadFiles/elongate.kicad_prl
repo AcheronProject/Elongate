@@ -1,7 +1,8 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 44,
     "active_layer_preset": "",
+    "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -37,7 +38,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -60,7 +60,8 @@
       37,
       38
     ],
-    "visible_layers": "003dcb0_80000001"
+    "visible_layers": "003dcb0_80000001",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "elongate.kicad_prl",
