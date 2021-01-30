@@ -343,7 +343,7 @@
       "no_connect_dangling": "error",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "error",
       "unannotated": "error",
@@ -436,11 +436,32 @@
   "schematic": {
     "drawing": {
       "default_bus_thickness": 12.0,
-      "default_junction_size": 40.0,
+      "default_junction_size": 48.0,
       "default_line_thickness": 8.0,
       "default_text_size": 50.0,
       "default_wire_thickness": 8.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "Manufacturer",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Manufacturer Part Number",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "LCSC Part Number",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Package",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -464,7 +485,7 @@
   },
   "sheets": [
     [
-      "a22a8282-80bd-4bb5-a8ed-56d6ae85b5de",
+      "6d400160-0f92-496d-9925-321a63c04a6d",
       ""
     ]
   ],
