@@ -11,7 +11,7 @@
    inkscape:export-xdpi="1000"
    inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/Elongate/graphics/label_logo/elongateLabel.png"
    sodipodi:docname="elongateLabel.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07, custom)"
    id="svg8"
    version="1.1"
    viewBox="0 0 144.00626 51.50116"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -69,9 +69,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Tengwar Annatar';-inkscape-font-specification:'Tengwar Annatar';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect835);fill:#000000;fill-opacity:1;stroke:none;"
        id="text833"
        xml:space="preserve"><tspan
-         x="186.08768"
+         x="192.69449"
          y="45.558969"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle">ElongatePCB rev. pre-Gamma
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle">ElongatePCB rev. pre-Delta
 </tspan></tspan><tspan
          x="193.00971"
          y="59.198256"><tspan
@@ -81,10 +81,10 @@
          y="72.837542"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle">With 159 and MrKeebs
 </tspan></tspan><tspan
-         x="194.98116"
+         x="192.31725"
          y="86.476831"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Italic'">&quot;I give up. Can you fix this?&quot;</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:center;text-anchor:middle">
+           style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold Italic'">&quot;I give up. Can you fix this?&quot;</tspan><tspan
+           style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold Italic';text-align:center;text-anchor:middle">
 </tspan></tspan></text>
   </g>
 </svg>
